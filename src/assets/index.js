@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import website from "./website.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -30,6 +31,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import servidental from "./servidental.png";
+import abraham from "./abrahamstudio.png";
+import woof from "./woof.png";
+
+import abrahamfoto from "./abraham.png";
+
 export {
   logo,
   backend,
@@ -37,6 +44,7 @@ export {
   mobile,
   web,
   github,
+  website,
   menu,
   close,
   css,
@@ -59,4 +67,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  servidental,
+  abraham,
+  woof,
+  abrahamfoto,
 };

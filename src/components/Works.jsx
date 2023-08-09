@@ -1,7 +1,7 @@
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, website } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -32,8 +32,8 @@ const ProjectCard = ({
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src={github}
-                alt="github"
+                src={website}
+                alt="website"
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
@@ -59,19 +59,19 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText}`}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <p className={`${styles.sectionSubText}`}>Mi trabajo</p>
+        <h2 className={`${styles.sectionHeadText}`}>Proyectos.</h2>
       </motion.div>
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          The following proyects showcase my skills through real-world exampes
-          of my work. Each project is briefly described with links to code
-          repositories and live demos in it. It reflects my ability to solve
-          complex problems, work with different technologies, and manage
-          projects effectively.
+          Los siguentes proyectos muestran mis habilidades a través de ejemplos
+          reales de mi trabajo. Cada proyecto se describe brevemente con enlaces
+          a sus respectivos sitios web. Reflejan mi capacidad para resolver
+          problemas complejos, trabajar con diferentes tecnologías y gestionar
+          proyectos de manera efectiva.
         </motion.p>
       </div>
 

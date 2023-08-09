@@ -23,40 +23,44 @@ import {
   jobit,
   tripguide,
   threejs,
+  servidental,
+  abraham,
+  woof,
+  abrahamfoto,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Sobre mí",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Trabajo",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contacto",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Desarrollador Web",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Diseñador de Marca",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Desarrollador Backend",
     icon: backend,
   },
-  {
-    title: "Content Creator",
+  /* {
+    title: "Creador de contenido",
     icon: creator,
-  },
+  }, */
 ];
 
 const technologies = [
@@ -108,10 +112,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
+  /*  {
     name: "docker",
     icon: docker,
-  },
+  }, */
 ];
 
 const experiences = [
@@ -172,77 +176,77 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Estoy muy satisfecho con la forma que nuestro Sito Web representa los valores de nuestra compañía.",
+    name: "Allan Chan",
+    designation: "CEO",
+    company: "ServiDentalCr",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Nunca he conocido un desarrollador que le importe tanto el éxito de sus clientes como lo hace Andrés.",
+    name: "Abraham Corella",
+    designation: "Propietario",
+    company: "Abraham Studio",
+    image: abrahamfoto,
+  },
+  {
+    testimonial:
+      "Después de que Andrés rediseñara nuestro sitio Web, el tráfico ha aumentado en un 50%. Estamos agradecidos.",
+    name: "Daniel Hernandez",
+    designation: "CEO",
+    company: "Agua de al Sierra",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ServiDental",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Plataforma web que le permite a los usuarios, consultar el catálogo de productos y servicios ofrecidos por ServiDental así como facilitar los medios de contacto para diversas solicitudes.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: servidental,
+    source_code_link: "http://servidentalcr.com/",
   },
   {
-    name: "Job IT",
+    name: "Abraham Studio",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Aplicación Web que le permite al propietario automatizar el sistema de reservas. Los usuarios pueden consultar precios y disponibilidad desde cualquier dispositivo 24/7.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
       {
         name: "scss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: abraham,
+    source_code_link: "https://abrahamstudio.calendarhit.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Woof",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Aplicación Web interactiva que le permite a los usuarios agendar diversos servicios veterinarios a domicilio, automáticamente y desde cualquier dispositivo.",
     tags: [
       {
         name: "nextjs",
@@ -257,8 +261,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: woof,
+    source_code_link: "https://woofcr.calendarhit.com/",
   },
 ];
 
