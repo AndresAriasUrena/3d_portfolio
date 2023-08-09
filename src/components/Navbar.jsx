@@ -47,7 +47,7 @@ const Navbar = () => {
           <img
             src={toggle ? close : menu}
             alt="menu"
-            className="w-[20px] h-[28px] object-contain cursor-pointer"
+            className="w-[28px] h-[28px] object-contain cursor-pointer"
             onClick={() => setToggle(!toggle)}
           />
           <div
@@ -59,9 +59,9 @@ const Navbar = () => {
               {navLinks.map((link) => (
                 <li
                   key={link.id}
-                  className={`${
+                  className={`font-poppins font-medium cursor-pointer text-[16px]${
                     active === link.title ? "text-white" : "text-secondary"
-                  } font-popping font-medium text-[16px]`}
+                  }`}
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(link.title);
