@@ -27,6 +27,8 @@ import {
   abraham,
   woof,
   abrahamfoto,
+  aquelarre,
+  leilyn,
 } from "../assets";
 
 export const navLinks = [
@@ -201,6 +203,48 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Aquelarre",
+    description:
+      "Comunidad creativa de artistas multidisciplinarios en la cual se comparte un blog de noticias, podcast, agenda cultural, oportunidades y comercio.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GraphQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aquelarre,
+    source_code_link: "http://www.aquelarre.wtf",
+  },
+  {
+    name: "Clínica Dra. Leilyn Tacsan",
+    description:
+      "Aplicación Web que le permite automatizar la gestión de citas odóntolicas. Los usuarios pueden consultar servicios y disponibilidad desde cualquier dispositivo 24/7.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: leilyn,
+    source_code_link: "https://draleilyntacsan.calendarhit.com/",
+  },
   {
     name: "ServiDental",
     description:

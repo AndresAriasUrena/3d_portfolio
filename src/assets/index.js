@@ -36,6 +36,8 @@ import abraham from "./abrahamstudio.png";
 import woof from "./woof.png";
 
 import abrahamfoto from "./abraham.png";
+import aquelarre from './aquelarre.png';
+import leilyn from './leilyn.png';
 
 export {
   logo,
@@ -71,4 +73,6 @@ export {
   abraham,
   woof,
   abrahamfoto,
+  aquelarre,
+  leilyn,
 };
