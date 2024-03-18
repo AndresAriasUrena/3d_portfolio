@@ -29,6 +29,7 @@ import {
   abrahamfoto,
   aquelarre,
   leilyn,
+  tutitips,
 } from "../assets";
 
 export const navLinks = [
@@ -204,6 +205,27 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Tutitips",
+    description:
+      "Aplicación Web que le permite automatizar la gestión de consultas de psicología. Los pacientes pueden consultar servicios, talleres y disponibilidad desde cualquier dispositivo 24/7.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "FramerMotion",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tutitips,
+    source_code_link: "https://tuti.calendarhit.com/",
+  },
+  {
     name: "Aquelarre",
     description:
       "Comunidad creativa de artistas multidisciplinarios en la cual se comparte un blog de noticias, podcast, agenda cultural, oportunidades y comercio.",
@@ -222,7 +244,7 @@ const projects = [
       },
     ],
     image: aquelarre,
-    source_code_link: "http://www.aquelarre.wtf",
+    source_code_link: "https://www.aquelarre.wtf",
   },
   {
     name: "Clínica Dra. Leilyn Tacsan",
