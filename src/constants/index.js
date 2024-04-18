@@ -30,6 +30,7 @@ import {
   aquelarre,
   leilyn,
   tutitips,
+  aguadelasierra,
 } from "../assets";
 
 export const navLinks = [
@@ -245,6 +246,27 @@ const projects = [
     ],
     image: aquelarre,
     source_code_link: "https://www.aquelarre.wtf",
+  },
+  {
+    name: "Agua de la Sierra",
+    description:
+      "Pagina informativa, catálogo y contacto para envasadora de agua de manantial con mas de 16 años de trayectoria en el mercado costarricense.",
+    tags: [
+      {
+        name: "html5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "VanillaJS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aguadelasierra,
+    source_code_link: "https://aguadelasierra.com",
   },
   {
     name: "Clínica Dra. Leilyn Tacsan",

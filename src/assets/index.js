@@ -39,6 +39,7 @@ import abrahamfoto from "./abraham.png";
 import aquelarre from './aquelarre.png';
 import leilyn from './leilyn.png';
 import tutitips from './tutitips.png';
+import aguadelasierra from './aguadelasierra.png';
 
 export {
   logo,
@@ -77,4 +78,5 @@ export {
   aquelarre,
   leilyn,
   tutitips,
+  aguadelasierra
 };
