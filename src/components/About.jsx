@@ -44,12 +44,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w3xl leading-[30px]"
       >
-        Soy Ingeniero en Sistemas con experiencia en TypeScript y JavaScript, y
-        con conocimientos en frameworks como React, Node.js, y Three.js. Soy un
-        profesional diligente y colaboro de cerca con los negocios a los que
-        sirvo para crear soluciones eficientes, escalables y fáciles de usar que
+        Somos Ingenieros en Sistemas con experiencia en TypeScript y JavaScript, y
+        con conocimientos en frameworks como React, Node.js, y Three.js. Somos un grupo de
+        profesionales diligente y colaboramos de cerca con los negocios a los que
+        servimos para crear soluciones eficientes, escalables y fáciles de usar que
         resuelven problemas del mundo real. ¡Trabajemos juntos para hacer
-        realidad sus ideas!{" "}
+        realidad tus ideas!{" "}
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

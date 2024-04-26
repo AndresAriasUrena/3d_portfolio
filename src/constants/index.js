@@ -36,7 +36,7 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "Sobre mí",
+    title: "Nosotros",
   },
   {
     id: "work",
@@ -50,21 +50,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Desarrollador Web",
+    title: "Desarrollo Web: Desktop & Mobile",
     icon: web,
   },
   {
-    title: "Diseñador de Marca",
+    title: "Diseño UI/UX ",
     icon: mobile,
   },
   {
-    title: "Desarrollador Backend",
+    title: "Animaciones y efectos dinámicos",
     icon: backend,
   },
-  /* {
-    title: "Creador de contenido",
+  {
+    title: "Inteligencia Artificial Generativa",
     icon: creator,
-  }, */
+  },
 ];
 
 const technologies = [
@@ -188,7 +188,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Nunca he conocido un desarrollador que le importe tanto el éxito de sus clientes como lo hace Andrés.",
+      "Nunca he conocido un equipo que le importe tanto el éxito de sus clientes como lo hace Aurigital.",
     name: "Abraham Corella",
     designation: "Propietario",
     company: "Abraham Studio",
@@ -196,7 +196,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Después de que Andrés rediseñara nuestro sitio Web, el tráfico ha aumentado en un 50%. Estamos agradecidos.",
+      "Después de que Aurigital rediseñara nuestro sitio Web, el tráfico ha aumentado en un 50%. Estamos agradecidos.",
     name: "Daniel Hernandez",
     designation: "CEO",
     company: "Agua de al Sierra",
