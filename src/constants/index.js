@@ -208,7 +208,7 @@ const projects = [
   {
     name: "Tutitips",
     description:
-      "Aplicación Web que le permite automatizar la gestión de consultas de psicología. Los pacientes pueden consultar servicios, talleres y disponibilidad desde cualquier dispositivo 24/7.",
+      "Los pacientes pueden consultar servicios, talleres y disponibilidad desde cualquier dispositivo 24/7.",
     tags: [
       {
         name: "next.js",
@@ -229,7 +229,7 @@ const projects = [
   {
     name: "Aquelarre",
     description:
-      "Comunidad creativa de artistas multidisciplinarios en la cual se comparte un blog de noticias, podcast, agenda cultural, oportunidades y comercio.",
+      "Comunidad creativa de artistas blog de noticias, podcast, agenda cultural, oportunidades y comercio.",
     tags: [
       {
         name: "next.js",
@@ -250,7 +250,7 @@ const projects = [
   {
     name: "Agua de la Sierra",
     description:
-      "Pagina informativa, catálogo y contacto para envasadora de agua de manantial con mas de 16 años de trayectoria en el mercado costarricense.",
+      "Pagina informativa, catálogo y contacto para envasadora de agua de manantial.",
     tags: [
       {
         name: "html5",
@@ -271,7 +271,7 @@ const projects = [
   {
     name: "Clínica Dra. Leilyn Tacsan",
     description:
-      "Aplicación Web que le permite automatizar la gestión de citas odóntolicas. Los usuarios pueden consultar servicios y disponibilidad desde cualquier dispositivo 24/7.",
+      "Aplicación Web que le permite automatizar la gestión de citas odóntolicas.",
     tags: [
       {
         name: "html",
@@ -292,7 +292,7 @@ const projects = [
   {
     name: "ServiDental",
     description:
-      "Plataforma web que le permite a los usuarios, consultar el catálogo de productos y servicios ofrecidos por ServiDental así como facilitar los medios de contacto para diversas solicitudes.",
+      "Catálogo de productos y servicios ofrecidos por ServiDental.",
     tags: [
       {
         name: "html",
@@ -313,7 +313,7 @@ const projects = [
   {
     name: "Abraham Studio",
     description:
-      "Aplicación Web que le permite al propietario automatizar el sistema de reservas. Los usuarios pueden consultar precios y disponibilidad desde cualquier dispositivo 24/7.",
+      "Aplicación Web que le permite al propietario automatizar el sistema de reservas.",
     tags: [
       {
         name: "scss",
@@ -334,7 +334,7 @@ const projects = [
   {
     name: "Woof",
     description:
-      "Aplicación Web interactiva que le permite a los usuarios agendar diversos servicios veterinarios a domicilio, automáticamente y desde cualquier dispositivo.",
+      "Agendar diversos servicios veterinarios a domicilio, desde cualquier dispositivo.",
     tags: [
       {
         name: "nextjs",
