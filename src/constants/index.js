@@ -50,7 +50,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Desarrollo Web: Desktop & Mobile",
+    title: "Desarrollo Web: Desktop y Mobile",
     icon: web,
   },
   {

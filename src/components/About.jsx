@@ -44,9 +44,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w3xl leading-[30px]"
       >
-        Somos Ingenieros en Sistemas con experiencia en TypeScript y JavaScript, y
+        Somos Ingenieros en Software y diseñadores con experiencia en TypeScript y JavaScript, y
         con conocimientos en frameworks como React, Node.js, y Three.js. Somos un grupo de
-        profesionales diligente y colaboramos de cerca con los negocios a los que
+        profesionales diligente y colaboramos de cerca con las marcas personales y los negocios a los que
         servimos para crear soluciones eficientes, escalables y fáciles de usar que
         resuelven problemas del mundo real. ¡Trabajemos juntos para hacer
         realidad tus ideas!{" "}
