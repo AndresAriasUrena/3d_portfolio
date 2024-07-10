@@ -9,6 +9,26 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
 
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://static.elfsight.com/platform/platform.js";
+    script.setAttribute("data-use-service-core", "");
+    script.defer = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
+  useEffect(() => {
+    const lastDiv = document.getElementById("lastDiv");
+    if (lastDiv) {
+      lastDiv.style.setProperty("z-index", "99999", "important");
+    }
+  }, []);
+
+
   return (
     <nav
       className={`
@@ -29,6 +49,21 @@ const Navbar = () => {
             <span className="sm:block hidden">| MDW</span>
           </p> */}
         </Link>
+        <div className="pl-2">
+        <div class="elfsight-app-211111f1-3951-4f65-8944-e6e30e4ff93a" data-elfsight-app-lazy></div>
+        <div
+        id="lastDiv"
+        style={{
+          position: "relative",
+          width: "100%",
+          backgroundColor: "#050816",
+          height: "10px",
+          left: 0,
+          bottom: 0,
+          transform: "translateY(-18px)",
+        }}
+      />
+        </div>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li
