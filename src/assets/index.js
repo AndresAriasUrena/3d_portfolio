@@ -41,6 +41,8 @@ import aquelarre from './aquelarre.png';
 import leilyn from './leilyn.png';
 import tutitips from './tutitips.png';
 import aguadelasierra from './aguadelasierra.png';
+import galileo from './galileo.png';
+import adv from './adv.png';
 
 export {
   logo,
@@ -79,5 +81,7 @@ export {
   aquelarre,
   leilyn,
   tutitips,
-  aguadelasierra
+  aguadelasierra,
+  galileo,
+  adv
 };

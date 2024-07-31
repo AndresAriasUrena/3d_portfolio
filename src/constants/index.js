@@ -31,6 +31,8 @@ import {
   leilyn,
   tutitips,
   aguadelasierra,
+  galileo,
+  adv,
 } from "../assets";
 
 export const navLinks = [
@@ -205,6 +207,48 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Galileo Capital",
+    description:
+      "Fintech registrada y regulada en el mercado americano y latinoamericano, para el comercio de cryptomonedas, divisas y activos digitales. Formularios KYC.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "lottieAnimations",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: galileo,
+    source_code_link: "https://galileocapital.io/",
+  },
+  {
+    name: "Architecte du Visage",
+    description:
+      "Centro de estética del Dr. Dominique Magnin. Ubicado en Suiza. Sitio web en inglés y francés.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Gsap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: adv,
+    source_code_link: "https://drmagnin.aurigital.com/",
+  },
   {
     name: "Tutitips",
     description:
