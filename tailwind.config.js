@@ -22,6 +22,11 @@ export default {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      fontFamily: {
+        quicksand: ["Quicksand", "sans-serif"],
+        orbitron: ["Orbitron", "sans-serif"],
+        quicksandr: ["QuicksandR", "sans-serif"],
+      },
     },
   },
   plugins: [],

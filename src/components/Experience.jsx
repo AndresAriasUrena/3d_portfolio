@@ -52,11 +52,11 @@ const ExperienceCard = ({ experience }) => (
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>
+      <motion.div  className="mt-16" variants={textVariant()}>
+        <p className={`${styles.sectionSubText} font-quicksandr`}>
           Algunas tecnologías con las que trabajamos
         </p>
-        <h2 className={styles.sectionHeadText}>Experiencia en:</h2>
+        <h2 className={`${styles.sectionHeadText} font-orbitron`}>Experiencia en:</h2>
       </motion.div>
 
       {/* <div className="mt-20 flex flex-col">

@@ -56,7 +56,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Diseño UI/UX ",
+    title: "Diseño UI/UX y Funcionalidades",
     icon: mobile,
   },
   {
@@ -212,18 +212,9 @@ const projects = [
     description:
       "Fintech registrada y regulada en el mercado americano y latinoamericano, para el comercio de cryptomonedas, divisas y activos digitales. Formularios KYC.",
     tags: [
-      {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "lottieAnimations",
-        color: "pink-text-gradient",
-      },
+      { name: "crypto", color: "blue-text-gradient" },
+      { name: "digitalassets", color: "green-text-gradient" },
+      { name: "lottieAnimations", color: "pink-text-gradient" },
     ],
     image: galileo,
     source_code_link: "https://galileocapital.io/",
@@ -233,18 +224,9 @@ const projects = [
     description:
       "Centro de estética del Dr. Dominique Magnin. Ubicado en Suiza. Sitio web en inglés y francés.",
     tags: [
-      {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Gsap",
-        color: "pink-text-gradient",
-      },
+      { name: "aestheticmedicine", color: "blue-text-gradient" },
+      { name: "art", color: "green-text-gradient" },
+      { name: "multilingual", color: "pink-text-gradient" },
     ],
     image: adv,
     source_code_link: "https://drmagnin.aurigital.com/",
@@ -254,18 +236,9 @@ const projects = [
     description:
       "Los pacientes pueden consultar servicios, talleres y disponibilidad desde cualquier dispositivo 24/7.",
     tags: [
-      {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "FramerMotion",
-        color: "pink-text-gradient",
-      },
+      { name: "therapy", color: "blue-text-gradient" },
+      { name: "art", color: "green-text-gradient" },
+      { name: "calendarhit", color: "pink-text-gradient" },
     ],
     image: tutitips,
     source_code_link: "https://tuti.calendarhit.com/",
@@ -275,18 +248,9 @@ const projects = [
     description:
       "Comunidad creativa de artistas blog de noticias, podcast, agenda cultural, oportunidades y comercio.",
     tags: [
-      {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "GraphQL",
-        color: "pink-text-gradient",
-      },
+      { name: "artist", color: "blue-text-gradient" },
+      { name: "creativecommunity", color: "green-text-gradient" },
+      { name: "communication", color: "pink-text-gradient" },
     ],
     image: aquelarre,
     source_code_link: "https://www.aquelarre.wtf",
@@ -296,18 +260,9 @@ const projects = [
     description:
       "Pagina informativa, catálogo y contacto para envasadora de agua de manantial.",
     tags: [
-      {
-        name: "html5",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css3",
-        color: "green-text-gradient",
-      },
-      {
-        name: "VanillaJS",
-        color: "pink-text-gradient",
-      },
+      { name: "catalog", color: "blue-text-gradient" },
+      { name: "watercontainers", color: "green-text-gradient" },
+      { name: "informative", color: "pink-text-gradient" },
     ],
     image: aguadelasierra,
     source_code_link: "https://aguadelasierra.com",
@@ -315,20 +270,11 @@ const projects = [
   {
     name: "Clínica Dra. Leilyn Tacsan",
     description:
-      "Aplicación Web que le permite automatizar la gestión de citas odóntolicas.",
+      "Aplicación Web que le permite automatizar la gestión de citas odontológicas.",
     tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "pink-text-gradient",
-      },
+      { name: "orthodontics", color: "blue-text-gradient" },
+      { name: "calendarhit", color: "green-text-gradient" },
+      { name: "dentist", color: "pink-text-gradient" },
     ],
     image: leilyn,
     source_code_link: "https://draleilyntacsan.calendarhit.com/",
@@ -338,18 +284,9 @@ const projects = [
     description:
       "Catálogo de productos y servicios ofrecidos por ServiDental.",
     tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "pink-text-gradient",
-      },
+      { name: "medicalequipment", color: "blue-text-gradient" },
+      { name: "catalog", color: "green-text-gradient" },
+      { name: "dentist", color: "pink-text-gradient" },
     ],
     image: servidental,
     source_code_link: "http://servidentalcr.com/",
@@ -359,18 +296,9 @@ const projects = [
     description:
       "Aplicación Web que le permite al propietario automatizar el sistema de reservas.",
     tags: [
-      {
-        name: "scss",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "html",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "pink-text-gradient",
-      },
+      { name: "barber", color: "blue-text-gradient" },
+      { name: "personalbrand", color: "green-text-gradient" },
+      { name: "calendarhit", color: "pink-text-gradient" },
     ],
     image: abraham,
     source_code_link: "https://abrahamstudio.calendarhit.com/",
@@ -380,22 +308,14 @@ const projects = [
     description:
       "Agendar diversos servicios veterinarios a domicilio, desde cualquier dispositivo.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "veterinarian", color: "blue-text-gradient" },
+      { name: "calendarhit", color: "green-text-gradient" },
+      { name: "emergencyservices", color: "pink-text-gradient" },
     ],
     image: woof,
     source_code_link: "https://woofcr.calendarhit.com/",
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };

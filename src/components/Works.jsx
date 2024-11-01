@@ -77,7 +77,7 @@ const ProjectCard = ({
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
-            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+            <p key={tag.name} className={`text-[13.2px] ${tag.color}`}>
               #{tag.name}
             </p>
           ))}
@@ -192,19 +192,17 @@ const Works = () => {
       <motion.div
         // variants={textVariant()}
       >
-        <p className={styles.sectionSubText}>Nuestro trabajo</p>
-        <h2 className={styles.sectionHeadText}>Proyectos.</h2>
+        <p className={`${styles.sectionSubText} font-quicksandr`}>Nuestro trabajo</p>
+        <h2 className={`${styles.sectionHeadText} font-orbitron`}>Proyectos.</h2>
       </motion.div>
       <div className="w-full flex">
         <motion.p
           // variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[17px] max-w-4xl leading-[30px] font-quicksandr"
         >
-          Los siguentes proyectos muestran nuestras habilidades a través de ejemplos
-          reales de mi trabajo. Cada proyecto se describe brevemente con enlaces
-          a sus respectivos sitios web. Reflejan nuestra capacidad para resolver
-          problemas complejos, trabajar con diferentes tecnologías y gestionar
-          proyectos de manera efectiva.
+         Los siguientes proyectos muestran nuestras habilidades y compromiso con retarnos para crear 
+         cada sitio web mejor que el anterior. Nuestro estilo de diseño se adapta a tu marca para que 
+         realmente sientas que tienes tu espacio en la web.
         </motion.p>
       </div>
 

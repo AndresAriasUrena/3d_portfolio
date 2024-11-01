@@ -35,7 +35,7 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+     {/* <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introducción</p>
         <h2 className={styles.sectionHeadText}>Descripción general.</h2>
       </motion.div>
@@ -50,9 +50,9 @@ const About = () => {
         servimos para crear soluciones eficientes, escalables y fáciles de usar que
         resuelven problemas del mundo real. ¡Trabajemos juntos para hacer
         realidad tus ideas!{" "}
-      </motion.p>
+      </motion.p>*/}
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-10 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

@@ -28,21 +28,21 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import carrent from "./carrent.avif";
+import jobit from "./jobit.avif";
+import tripguide from "./tripguide.avif";
 
-import servidental from "./servidental.png";
-import abraham from "./abrahamstudio.png";
-import woof from "./woof.png";
+import servidental from "./servidental.avif";
+import abraham from "./abrahamstudio.avif";
+import woof from "./woof.avif";
 
 import abrahamfoto from "./abraham.png";
-import aquelarre from './aquelarre.png';
-import leilyn from './leilyn.png';
-import tutitips from './tutitips.png';
-import aguadelasierra from './aguadelasierra.png';
-import galileo from './galileo.png';
-import adv from './adv.png';
+import aquelarre from './aquelarre.avif';
+import leilyn from './leilyn.avif';
+import tutitips from './tutitips.avif';
+import aguadelasierra from './aguadelasierra.avif';
+import galileo from './galileo.avif';
+import adv from './adv.avif';
 
 export {
   logo,

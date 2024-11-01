@@ -12,51 +12,50 @@ import { slideIn } from "../utils/motion";
 // ryvK7pl1EHrprowrV
 
 const Contact = () => {
-  const formRef = useRef();
-  const [form, setForm] = useState({ name: "", email: "", message: "" });
-  const [loading, setLoading] = useState(false);
+  // const formRef = useRef();
+  // const [form, setForm] = useState({ name: "", email: "", message: "" });
+  // const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
+  // const handleChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setForm({ ...form, [name]: value });
+  // };
 
-    setForm({ ...form, [name]: value });
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setLoading(true);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
+  //   emailjs
+  //     .send(
+  //       "service_eeaz1ie",
+  //       "template_huvytlz",
+  //       {
+  //         from_name: form.name,
+  //         to_name: "Andres",
+  //         from_email: form.email,
+  //         to_email: "andres@mainlydigitalworks.com",
+  //         message: form.message,
+  //       },
+  //       "ryvK7pl1EHrprowrV"
+  //     )
+  //     .then(
+  //       () => {
+  //         setLoading(false);
+  //         alert("Thank you. I will get back to you as soon as posible.");
 
-    emailjs
-      .send(
-        "service_eeaz1ie",
-        "template_huvytlz",
-        {
-          from_name: form.name,
-          to_name: "Andres",
-          from_email: form.email,
-          to_email: "andres@mainlydigitalworks.com",
-          message: form.message,
-        },
-        "ryvK7pl1EHrprowrV"
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as posible.");
-
-          setForm({ name: "", email: "", message: "" });
-        },
-        (error) => {
-          setLoading(false);
-          console.log(error);
-          alert("Something went wrong. Please try again.");
-        }
-      );
-  };
+  //         setForm({ name: "", email: "", message: "" });
+  //       },
+  //       (error) => {
+  //         setLoading(false);
+  //         console.log(error);
+  //         alert("Something went wrong. Please try again.");
+  //       }
+  //     );
+  // };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
-      <motion.div
+      {/* <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
@@ -108,11 +107,11 @@ const Contact = () => {
             {loading ? "Enviando..." : "Enviar"}
           </button>
         </form>
-      </motion.div>
+      </motion.div> */}
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1  xl:h-auto md:h-[550px] h-[350px]"
+        className="xl:flex-1 lg:h-screen md:h-[550px] h-[350px]"
       >
         <EarthCanvas />
       </motion.div>
