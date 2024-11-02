@@ -32,6 +32,7 @@ import {
   tutitips,
   aguadelasierra,
   galileo,
+  giofi,
   adv,
 } from "../assets";
 
@@ -208,16 +209,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Galileo Capital",
+    name: "GIOFI",
     description:
-      "Fintech registrada y regulada en el mercado americano y latinoamericano, para el comercio de cryptomonedas, divisas y activos digitales. Formularios KYC.",
+      "Fintech registrada y regulada en Costa Rica, para el canje de dinero, transferencias de fondos, y administración de fideicomisos y escrow",
     tags: [
-      { name: "crypto", color: "blue-text-gradient" },
-      { name: "digitalassets", color: "green-text-gradient" },
+      { name: "fintech", color: "blue-text-gradient" },
+      { name: "transactions", color: "green-text-gradient" },
       { name: "lottieAnimations", color: "pink-text-gradient" },
     ],
-    image: galileo,
-    source_code_link: "https://galileocapital.io/",
+    image: giofi,
+    source_code_link: "https://giofi.io/",
   },
   {
     name: "Architecte du Visage",
@@ -230,6 +231,18 @@ const projects = [
     ],
     image: adv,
     source_code_link: "https://drmagnin.aurigital.com/",
+  },
+  {
+    name: "Galileo Capital",
+    description:
+      "Fintech registrada y regulada en el mercado americano y latinoamericano, para el comercio de cryptomonedas, divisas y activos digitales. Formularios KYC.",
+    tags: [
+      { name: "crypto", color: "blue-text-gradient" },
+      { name: "digitalassets", color: "green-text-gradient" },
+      { name: "lottieAnimations", color: "pink-text-gradient" },
+    ],
+    image: galileo,
+    source_code_link: "https://galileocapital.io/",
   },
   {
     name: "Tutitips",

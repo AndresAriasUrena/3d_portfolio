@@ -42,6 +42,7 @@ import leilyn from './leilyn.avif';
 import tutitips from './tutitips.avif';
 import aguadelasierra from './aguadelasierra.avif';
 import galileo from './galileo.avif';
+import giofi from './giofi.avif';
 import adv from './adv.avif';
 
 export {
@@ -83,5 +84,6 @@ export {
   tutitips,
   aguadelasierra,
   galileo,
+  giofi,
   adv
 };
