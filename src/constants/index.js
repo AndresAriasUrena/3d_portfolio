@@ -34,6 +34,9 @@ import {
   galileo,
   giofi,
   adv,
+  servidental24,
+  terciopelo,
+  esgb,
 } from "../assets";
 
 export const navLinks = [
@@ -209,6 +212,42 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Servidental 2024",
+    description:
+      "Rediseño de Catálogo de productos y servicios ofrecidos por ServiDental.",
+    tags: [
+      { name: "equipo médico", color: "blue-text-gradient" },
+      { name: "typescript", color: "green-text-gradient" },
+      { name: "seo", color: "pink-text-gradient" },
+    ],
+    image: servidental24,
+    source_code_link: "https://servidentalcr.com/products/",
+  },
+  {
+    name: "Terciopelo Beauty",
+    description:
+      "Formulario de cotización de servicios y sistema de reservas para salón de belleza.",
+    tags: [
+      { name: "calendarhit", color: "blue-text-gradient" },
+      { name: "agenda en linea", color: "green-text-gradient" },
+      { name: "microanimaciones", color: "pink-text-gradient" },
+    ],
+    image: terciopelo,
+    source_code_link: "https://terciopelo.vercel.app/",
+  },
+  {
+    name: "Escuela Sotero González B",
+    description:
+      "Proyecto de responsabilidad social para la Escuela Sotero González B. Historia, Servicios, Proyectos y Actividades.",
+    tags: [
+      { name: "escuela", color: "blue-text-gradient" },
+      { name: "typescript", color: "green-text-gradient" },
+      { name: "educación", color: "pink-text-gradient" },
+    ],
+    image: esgb,
+    source_code_link: "https://esgb.aurigital.com/",
+  },
+  {
     name: "GIOFI",
     description:
       "Fintech registrada y regulada en Costa Rica, para el canje de dinero, transferencias de fondos, y administración de fideicomisos y escrow",
@@ -293,7 +332,7 @@ const projects = [
     source_code_link: "https://draleilyntacsan.calendarhit.com/",
   },
   {
-    name: "ServiDental",
+    name: "2022 - ServiDental",
     description:
       "Catálogo de productos y servicios ofrecidos por ServiDental.",
     tags: [
@@ -302,7 +341,7 @@ const projects = [
       { name: "dentist", color: "pink-text-gradient" },
     ],
     image: servidental,
-    source_code_link: "http://servidentalcr.com/",
+    source_code_link: "https://2022.servidentalcr.com/",
   },
   {
     name: "Abraham Studio",
@@ -316,18 +355,18 @@ const projects = [
     image: abraham,
     source_code_link: "https://abrahamstudio.calendarhit.com/",
   },
-  {
-    name: "Woof",
-    description:
-      "Agendar diversos servicios veterinarios a domicilio, desde cualquier dispositivo.",
-    tags: [
-      { name: "veterinarian", color: "blue-text-gradient" },
-      { name: "calendarhit", color: "green-text-gradient" },
-      { name: "emergencyservices", color: "pink-text-gradient" },
-    ],
-    image: woof,
-    source_code_link: "https://woofcr.calendarhit.com/",
-  },
+  // {
+  //   name: "Woof",
+  //   description:
+  //     "Agendar diversos servicios veterinarios a domicilio, desde cualquier dispositivo.",
+  //   tags: [
+  //     { name: "veterinarian", color: "blue-text-gradient" },
+  //     { name: "calendarhit", color: "green-text-gradient" },
+  //     { name: "emergencyservices", color: "pink-text-gradient" },
+  //   ],
+  //   image: woof,
+  //   source_code_link: "https://woofcr.calendarhit.com/",
+  // },
 ];
 
 

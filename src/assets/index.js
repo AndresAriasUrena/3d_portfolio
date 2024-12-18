@@ -45,6 +45,11 @@ import galileo from './galileo.avif';
 import giofi from './giofi.avif';
 import adv from './adv.avif';
 
+import servidental24 from './servidental24.avif';
+import amura from './amura.avif';
+import terciopelo from './terciopelo.avif';
+import esgb from './esgb.avif';
+
 export {
   logo,
   backend,
@@ -85,5 +90,9 @@ export {
   aguadelasierra,
   galileo,
   giofi,
-  adv
+  adv,
+  servidental24,
+  amura,
+  terciopelo,
+  esgb
 };
