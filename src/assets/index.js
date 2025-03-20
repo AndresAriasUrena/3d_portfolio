@@ -31,6 +31,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.avif";
 import jobit from "./jobit.avif";
 import tripguide from "./tripguide.avif";
+import tuti from "./tuti2024.avif";
+import abraham2024 from "./abraham2024.avif";
+import pranayama from "./pranayama2024.avif";
+
 
 import servidental from "./servidental.avif";
 import abraham from "./abrahamstudio.avif";
@@ -94,5 +98,8 @@ export {
   servidental24,
   amura,
   terciopelo,
-  esgb
+  esgb,
+  tuti,
+  abraham2024,
+  pranayama,
 };

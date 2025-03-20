@@ -13,6 +13,7 @@ import {
   nodejs,
   mongodb,
   git,
+  tuti,
   figma,
   docker,
   meta,
@@ -25,6 +26,8 @@ import {
   threejs,
   servidental,
   abraham,
+  abraham2024,
+  pranayama,
   woof,
   abrahamfoto,
   aquelarre,
@@ -212,6 +215,42 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Pranayama",
+    description:
+      "Sitio Web que le permite al propietario vender productos y automatizar el sistema de reservas.",
+    tags: [
+      { name: "pranayama", color: "blue-text-gradient" },
+      { name: "personalbrand", color: "green-text-gradient" },
+      { name: "calendarhit", color: "pink-text-gradient" },
+    ],
+    image: pranayama,
+    source_code_link: "https://pranayamacr.com/",
+  },
+  {
+    name: "Abraham Studio 2024",
+    description:
+      "Aplicación Web que le permite al propietario automatizar el sistema de reservas.",
+    tags: [
+      { name: "barber", color: "blue-text-gradient" },
+      { name: "personalbrand", color: "green-text-gradient" },
+      { name: "calendarhit", color: "pink-text-gradient" },
+    ],
+    image: abraham2024,
+    source_code_link: "https://abrahamstudio.calendarhit.com/",
+  },
+  {
+    name: "Tulsi Psicóloga 2024",
+    description:
+      "Los pacientes pueden consultar servicios, talleres y disponibilidad desde cualquier dispositivo 24/7.",
+    tags: [
+      { name: "therapy", color: "blue-text-gradient" },
+      { name: "art", color: "green-text-gradient" },
+      { name: "calendarhit", color: "pink-text-gradient" },
+    ],
+    image: tuti,
+    source_code_link: "https://tulsi.calendarhit.com/",
+  },
+  {
     name: "Servidental 2024",
     description:
       "Rediseño de Catálogo de productos y servicios ofrecidos por ServiDental.",
@@ -233,7 +272,7 @@ const projects = [
       { name: "microanimaciones", color: "pink-text-gradient" },
     ],
     image: terciopelo,
-    source_code_link: "https://terciopelo.vercel.app/",
+    source_code_link: "https://terciopelo.aurigital.com/",
   },
   {
     name: "Escuela Sotero González B",
@@ -295,18 +334,18 @@ const projects = [
     image: tutitips,
     source_code_link: "https://tuti.calendarhit.com/",
   },
-  {
+  /*{
     name: "Aquelarre",
     description:
       "Comunidad creativa de artistas blog de noticias, podcast, agenda cultural, oportunidades y comercio.",
-    tags: [
-      { name: "artist", color: "blue-text-gradient" },
+   tags: [
+     { name: "artist", color: "blue-text-gradient" },
       { name: "creativecommunity", color: "green-text-gradient" },
       { name: "communication", color: "pink-text-gradient" },
     ],
     image: aquelarre,
     source_code_link: "https://www.aquelarre.wtf",
-  },
+  },*/
   {
     name: "Agua de la Sierra",
     description:
@@ -318,18 +357,6 @@ const projects = [
     ],
     image: aguadelasierra,
     source_code_link: "https://aguadelasierra.com",
-  },
-  {
-    name: "Clínica Dra. Leilyn Tacsan",
-    description:
-      "Aplicación Web que le permite automatizar la gestión de citas odontológicas.",
-    tags: [
-      { name: "orthodontics", color: "blue-text-gradient" },
-      { name: "calendarhit", color: "green-text-gradient" },
-      { name: "dentist", color: "pink-text-gradient" },
-    ],
-    image: leilyn,
-    source_code_link: "https://draleilyntacsan.calendarhit.com/",
   },
   {
     name: "2022 - ServiDental",
@@ -344,7 +371,7 @@ const projects = [
     source_code_link: "https://2022.servidentalcr.com/",
   },
   {
-    name: "Abraham Studio",
+    name: "Abraham Studio 2022",
     description:
       "Aplicación Web que le permite al propietario automatizar el sistema de reservas.",
     tags: [
@@ -353,7 +380,7 @@ const projects = [
       { name: "calendarhit", color: "pink-text-gradient" },
     ],
     image: abraham,
-    source_code_link: "https://abrahamstudio.calendarhit.com/",
+    source_code_link: "https://abrahamstudio.aurigital.com/",
   },
   // {
   //   name: "Woof",
